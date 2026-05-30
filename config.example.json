@@ -1,0 +1,24 @@
+{
+  "_instructions": "Copy this file to config.json and fill in your real values. config.json is gitignored and will never be committed.",
+
+  "latitude":  0.0000,
+  "longitude": 0.0000,
+  "timezone":  "America/Chicago",
+  "elevation": 0,
+
+  "pi_host":     "raspberrypi.local",
+  "pi_port":     22,
+  "pi_user":     "pi",
+  "pi_password": "",
+  "pi_key_path": "~/.ssh/id_rsa",
+  "pi_script":   "/home/pi/hydro/pump_controller.py",
+
+  "gpio_pin":       17,
+  "pump_duration":  600,
+
+  "sunrise_offset": 0,
+  "sunset_offset":  -60,
+
+  "log_file":   "scheduler.log",
+  "state_file": "schedule_state.json"
+}
